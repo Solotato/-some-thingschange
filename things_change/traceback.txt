@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 238, in script
+    jump true1
+ScriptError: could not find label 'true1'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 238, in script
+    jump true1
+  File "C:\Users\Potato\Downloads\renpy-7.2.2-sdk\renpy\ast.py", line 1678, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Potato\Downloads\renpy-7.2.2-sdk\renpy\script.py", line 886, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'true1'.
+
+Windows-8-6.2.9200
+Ren'Py 7.2.2.491
+things_change 1.0
+Sat May 23 21:39:06 2020

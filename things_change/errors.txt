@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 270: expected 'image_name_component' not found.
+(Perhaps you left out a " at the end of the first line.)
+    show "On account of your own free will,{/} You have become indebted to Naoto.{/} If
+         ^
+                  you wish to resolve your dues,{/} heed thy debtor's whims."
+
+Ren'Py Version: Ren'Py 7.2.2.491
+Sat May 23 21:06:31 2020
